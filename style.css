@@ -1,0 +1,29 @@
+body, html {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+.container {
+	width: 100%;
+	height: 100%;
+}
+.box {
+	width: 350px;
+	height: 100%;
+	overflow: auto;
+	float: left;
+}
+.box .jspTrack .jspDrag {
+	width: 366px !important;
+	left: -350px !important;
+	position: absolute !important;
+	background-color: black;
+}
+.div1,
+.div1 .jspTrack {
+	background-color: red;
+}
+.div2,
+.div2 .jspTrack {
+	background-color: orange;
+}
